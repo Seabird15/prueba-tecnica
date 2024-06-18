@@ -1,9 +1,11 @@
-import './assets/main.css'
+import "./assets/main.css";
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-import 'bootstrap'; // Importación básica
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importación de los estilos de Bootstrap
+import "remixicon/fonts/remixicon.css"; // Importación de los iconos de Remix Icon
 
-createApp(App).mount('#app')
+import "bootstrap"; // Importación básica
+import "bootstrap/dist/css/bootstrap.min.css"; // Importación de los estilos de Bootstrap
+
+createApp(App).mount("#app");
